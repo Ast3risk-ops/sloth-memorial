@@ -1,0 +1,281 @@
+// Teko
+@import url("https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap");
+
+// Poppins
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+    background-color: #222222;
+    font-family: "Teko", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: #3498db;
+    .container {
+        .navbar-brand {
+            font-weight: bold;
+            font-size: 32px;
+            color: white;
+            cursor: pointer;
+        }
+
+        .collapse {
+            .navbar-nav {
+                li {
+                    .la {
+                        color: white;
+                        font-size: 16px;
+                        font-family: "Poppins", sans-serif;
+                        transition: all 0.3s ease;
+
+                        &:hover {
+                            opacity: 70%;
+                        }
+                        cursor: pointer;
+                    }
+
+                    .but {
+                        color: white;
+                        font-size: 16px;
+                        font-family: "Teko", sans-serif;
+                        font-weight: bold;
+                        background-color: #e74c3c;
+                        border: 1px solid #e74c3c;
+                        padding-top: 10px;
+                        padding-bottom: 10px;
+                        padding-left: 15px;
+                        padding-right: 15px;
+                        border-radius: 5px;
+                        cursor: pointer;
+                        width: fit-content;
+                        transition: all 0.3s ease;
+
+                        &:hover {
+                            background-color: transparent;
+                        }
+                    }
+                }
+            }
+        }
+
+        .navbar-toggler {
+            .navbar-toggler-icon {
+                background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28, 255, 255, 255%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+            }
+        }
+    }
+}
+
+.lw {
+    margin-top: 50px;
+    .row {
+        height: max-content;
+        .col-12 {
+            max-width: 100%;
+            position: relative;
+
+            .video {
+                border: 3px solid white;
+                border-radius: 5px;
+                width: 100%;
+                height: auto;
+                cursor: pointer;
+                z-index: -1;
+            }
+
+            .play-button {
+                color: white;
+                z-index: 1;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                border-radius: 10px;
+                padding: 20px;
+                display: none;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+.ab {
+    margin-top: 50px;
+    height: max-content;
+    .r1 {
+        .colu-2 {
+            display: flex;
+            align-items: center;
+            text-align: left;
+            color: white;
+            font-family: "Poppins", sans-serif;
+            font-size: 32px;
+            font-weight: bold;
+        }
+    }
+
+    .r2 {
+        .colu-2 {
+            max-width: 100%;
+            flex-wrap: wrap;
+            display: flex;
+            align-items: center;
+            text-align: left;
+            color: #15b795;
+            font-size: 64px;
+            font-weight: bold;
+
+            span {
+                color: white;
+                font-family: "Poppins", sans-serif;
+                font-size: 32px;
+                font-weight: lighter;
+            }
+
+            .sp2 {
+                color: #0158bd;
+                font-size: 64px;
+                font-weight: bold;
+            }
+        }
+
+        @media only screen and (max-width: 1199px) {
+            .colu-2 {
+                line-height: 90%;
+            }
+        }
+
+        .colu-4 {
+            max-width: 100%;
+
+            .sloth-pfp {
+                width: 100%;
+                border-radius: 100%;
+            }
+        }
+    }
+
+    .r3 {
+        .colu-2 {
+            max-width: 100%;
+
+            .ab-sloth {
+                margin-top: 50px;
+                width: 100%;
+                color: white;
+                font-size: 24px;
+                font-weight: bold;
+
+                span {
+                    font-size: 32px;
+                }
+            }
+        }
+    }
+
+    .r4 {
+        .colu-2 {
+            margin-top: 50px;
+            max-width: 100%;
+
+            .sloth-vector {
+                width: 100%;
+            }
+        }
+    }
+}
+
+.pr {
+    box-shadow: 0px 0px 10px 0px black;
+    margin-top: 50px;
+    height: max-content;
+    max-width: 100%;
+    background-color: rgba(147, 147, 147, 0.4);
+    .mar {
+        padding-top: 20px;
+
+        .main-box {
+            display: flex;
+
+            .p-box {
+                margin-left: 50px;
+                margin-right: 50px;
+                display: flex;
+                flex-direction: column;
+    
+                .box-1 {
+                    display: flex;
+                    .pfp {
+                        margin-right: 10px;
+                        width: 50px;
+                        height: 50px;
+                        border-radius: 100%;
+                    }
+    
+                    .name {
+                        padding-top: 10px;
+                        font-size: 24px;
+                        font-weight: bold;
+                        color: white;
+                    }
+                }
+    
+                .box-2 {
+                    font-family: "Poppins", sans-serif;
+                    font-size: 16px;
+                    color: white;
+                }
+            }
+        }
+    }
+}
+
+.si {
+    margin-top: 50px;
+    height: max-content;
+    max-width: 100%;
+
+    .main-box {
+        display: flex;
+
+        img {
+            height: 300px;
+            margin-left: 50px;
+            margin-right: 50px;
+        }
+    }
+}
+
+.final {
+    margin-top: 50px;
+    .r1 {
+        .colu-2 {
+            max-width: 100%;
+            .rip {
+                width: 100%;
+            }
+        }
+    }
+
+    .r2 {
+        .colu-2 {
+            max-width: 100%;
+            .grave {
+                width: 100%;
+            }
+        }
+    }
+}
+
+.foot {
+    margin-top: 50px;
+
+    .foot-info {
+        font-size: 16px;
+        color: rgba(255, 255, 255, 0.9);
+        text-align: center;
+    }
+}

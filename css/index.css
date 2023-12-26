@@ -1,0 +1,233 @@
+@import url("https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+body {
+  background-color: #222222;
+  font-family: "Teko", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  background-color: #3498db;
+}
+.navbar .container .navbar-brand {
+  font-weight: bold;
+  font-size: 32px;
+  color: white;
+  cursor: pointer;
+}
+.navbar .container .collapse .navbar-nav li .la {
+  color: white;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.navbar .container .collapse .navbar-nav li .la:hover {
+  opacity: 70%;
+}
+.navbar .container .collapse .navbar-nav li .but {
+  color: white;
+  font-size: 16px;
+  font-family: "Teko", sans-serif;
+  font-weight: bold;
+  background-color: #e74c3c;
+  border: 1px solid #e74c3c;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: -moz-fit-content;
+  width: fit-content;
+  transition: all 0.3s ease;
+}
+.navbar .container .collapse .navbar-nav li .but:hover {
+  background-color: transparent;
+}
+.navbar .container .navbar-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28, 255, 255, 255%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.lw {
+  margin-top: 50px;
+}
+.lw .row {
+  height: -moz-max-content;
+  height: max-content;
+}
+.lw .row .col-12 {
+  max-width: 100%;
+  position: relative;
+}
+.lw .row .col-12 .video {
+  border: 3px solid white;
+  border-radius: 5px;
+  width: 100%;
+  height: auto;
+  cursor: pointer;
+  z-index: -1;
+}
+.lw .row .col-12 .play-button {
+  color: white;
+  z-index: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  padding: 20px;
+  display: none;
+  cursor: pointer;
+}
+
+.ab {
+  margin-top: 50px;
+  height: -moz-max-content;
+  height: max-content;
+}
+.ab .r1 .colu-2 {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+}
+.ab .r2 .colu-2 {
+  max-width: 100%;
+  flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  text-align: left;
+  color: #15b795;
+  font-size: 64px;
+  font-weight: bold;
+}
+.ab .r2 .colu-2 span {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 32px;
+  font-weight: lighter;
+}
+.ab .r2 .colu-2 .sp2 {
+  color: #0158bd;
+  font-size: 64px;
+  font-weight: bold;
+}
+@media only screen and (max-width: 1199px) {
+  .ab .r2 .colu-2 {
+    line-height: 90%;
+  }
+}
+.ab .r2 .colu-4 {
+  max-width: 100%;
+}
+.ab .r2 .colu-4 .sloth-pfp {
+  width: 100%;
+  border-radius: 100%;
+}
+.ab .r3 .colu-2 {
+  max-width: 100%;
+}
+.ab .r3 .colu-2 .ab-sloth {
+  margin-top: 50px;
+  width: 100%;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
+.ab .r3 .colu-2 .ab-sloth span {
+  font-size: 32px;
+}
+.ab .r4 .colu-2 {
+  margin-top: 50px;
+  max-width: 100%;
+}
+.ab .r4 .colu-2 .sloth-vector {
+  width: 100%;
+}
+
+.pr {
+  box-shadow: 0px 0px 10px 0px black;
+  margin-top: 50px;
+  height: -moz-max-content;
+  height: max-content;
+  max-width: 100%;
+  background-color: rgba(147, 147, 147, 0.4);
+}
+.pr .mar {
+  padding-top: 20px;
+}
+.pr .mar .main-box {
+  display: flex;
+}
+.pr .mar .main-box .p-box {
+  margin-left: 50px;
+  margin-right: 50px;
+  display: flex;
+  flex-direction: column;
+}
+.pr .mar .main-box .p-box .box-1 {
+  display: flex;
+}
+.pr .mar .main-box .p-box .box-1 .pfp {
+  margin-right: 10px;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+}
+.pr .mar .main-box .p-box .box-1 .name {
+  padding-top: 10px;
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+}
+.pr .mar .main-box .p-box .box-2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  color: white;
+}
+
+.si {
+  margin-top: 50px;
+  height: -moz-max-content;
+  height: max-content;
+  max-width: 100%;
+}
+.si .main-box {
+  display: flex;
+}
+.si .main-box img {
+  height: 300px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.final {
+  margin-top: 50px;
+}
+.final .r1 .colu-2 {
+  max-width: 100%;
+}
+.final .r1 .colu-2 .rip {
+  width: 100%;
+}
+.final .r2 .colu-2 {
+  max-width: 100%;
+}
+.final .r2 .colu-2 .grave {
+  width: 100%;
+}
+
+.foot {
+  margin-top: 50px;
+}
+.foot .foot-info {
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.9);
+  text-align: center;
+}/*# sourceMappingURL=index.css.map */
